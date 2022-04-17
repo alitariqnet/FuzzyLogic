@@ -6,9 +6,9 @@ public class Runner {
 	public static void main(String[] args) {
 
 		FIS fis = new FIS();
-		fis.fuzz.input.env.init(3);
-		fis.fuzz.input.food.init(8);
-		fis.fuzz.input.serv.init(5);
+		fis.fuzz.input.env.init(1.27f);
+		fis.fuzz.input.food.init(9.5f);
+		fis.fuzz.input.serv.init(1.14f);
 		
 		fis.initFISRules(fis.fuzz,fis.defuzz.output);
 		

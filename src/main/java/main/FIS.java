@@ -130,8 +130,8 @@ public class FIS {
 		}
 		
 		if(fuzz.input.env.med==true && fuzz.input.food.low==true && fuzz.input.serv.high==true) {
-			o.low = true;
-			o.lowV = AND(AND(fuzz.input.env.medV,fuzz.input.food.lowV),fuzz.input.serv.highV);
+			o.med = true;
+			o.medV = AND(AND(fuzz.input.env.medV,fuzz.input.food.lowV),fuzz.input.serv.highV);
 			System.out.println("inside 12");
 		}
 		
