@@ -1,5 +1,7 @@
 package main;
 
 public class Fuzzifier {
-		Input input = new Input();
+	public Environment env = new Environment();
+	public Service serv = new Service();
+	public Food food = new Food();
 }
